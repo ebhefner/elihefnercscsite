@@ -1,0 +1,46 @@
+
+/* I added a padding left in order to line the second paragraph's text up evenly beside the image. */
+p {
+    padding-top: -15px;
+    padding-right: 80px;
+    padding-left:400px;
+    font-size: 18px;
+    font-family: Candara;
+}
+
+/* This is what floats the image to the left side of the text, so they are side by side. */
+div.images {
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+/* By assigning the image a border radius of 50 percent, it makes the image an oval instead of rectangle. I personally think it came out more aesthetically pleasing this way. */
+img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* Here the unordered list is given the same values as the paragraph tag in order to keep the flow of the text.*/
+ul {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Candara;
+}
+
+/* Had to adjust the padding of h1 due to the different paragrpah padding messing up the spacing. */
+
+h1 {
+    padding-bottom: 10px
+}
+
+/* Copied the code from my main external CSS here so the link styling stays consistant thru out the site. */
+h2 {
+    font-size: 18px;
+    font-family: Candara;
+    padding-top: 10px;
+    text-align: center;
+}

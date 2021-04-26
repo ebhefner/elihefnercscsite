@@ -1,0 +1,43 @@
+/* This creates the layout for the menu, from color to size. */
+.menubutton {
+  background-color: darkolivegreen;
+  color: white;
+  width: 190px;
+  padding: 10px;
+  font-size: 20px;
+  border-style: outset;
+  border-color: white;
+}
+/* This sets the position for the menu, as well as setting it as a block. */
+.dropmenu {
+	position:relative;
+	display: inline-block;
+}
+/* Here I created the styling of the three dropdown boxes */
+.dropmenu-items {
+	display: none;
+	background-color: #282828;
+	position: absolute;
+	min-width: 270px;
+	box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.4);
+	z-index: 1;
+}
+/* This is the styling of the individual boxes. */
+.dropmenu-items a {
+	padding: 12px 16px;
+	color: white;
+	text-decoration: none;
+	display: block; 
+}
+
+/* All this does is change the color of the items on hover. */
+.dropmenu-items a:hover {background-color: #ff6961;}
+
+/* This reveals the dropdown menu when you hover over it */
+.dropmenu:hover .dropmenu-items {display: block;}
+
+/* These two lines of code change the border style and color, as well as background color of the drop menu. This gives visual feedback to the interaction with the menu. */
+.dropmenu:hover .menubutton {border-style: inline; border-color: #d4d4d4;}
+
+/* Finally this changes the menu button color on hover. */
+.dropmenu:hover .menubutton {background-color: #78A2CC;}

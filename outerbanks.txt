@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+The North Carolina Aquarium has not one but four separate locations spread across the Carolina’s coast line. The Locations are as follows
+<ul>
+  <li>Pine Knoll Shores</li>
+  <li>Roanoke Island</li>
+  <li>Fort Fisher</li>
+  <li>Jennette's Pier</li>
+</ul>
+Jennette’s Pier is unique in the sense that it is really a view spot to observe marine life such as humpback whales. Roanoke Island boasts the largest number of sharks while Pine Knoll focuses on education of NC's varied aquatic life. Lastly, Fort Fisher establishes the diversity of aquatic life found in both freshwater and the open ocean of Cape Fear. 
+</p>

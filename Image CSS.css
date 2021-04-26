@@ -1,0 +1,31 @@
+
+/* All I did was change the positioniing and font for the paragraph here. */
+
+p {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-family: Candara;
+}
+
+/* This is what floats the image to the left side of the text, so they are side by side. */
+div.images {
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+/* By assigning the image a border radius of 50 percent, it makes the image an oval instead of rectangle. I personally think it came out more aesthetically pleasing this way. */
+img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* Here the font, padding, and alignment for the site link is coded. Having it external is tons less work than inline. */
+h2 {
+    font-size: 18px;
+    font-family: Candara;
+    padding-top: 10px;
+    text-align: center;
+}
